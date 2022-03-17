@@ -7,7 +7,8 @@ from pkg_resources import load_entry_point
 Ueser_name = input("what's your name? :)")
 print()
 fav_num = int (input("what's your favourit number?"))
-print()
+if fav_num == 6:
+    print("oh that's my favourit number too")
 print()
 Double = fav_num * 2
 half = fav_num / 2
@@ -21,4 +22,3 @@ print()
 print("your favourit number squared  is {}".format (squared))
 print()
 print("bye and thank you for doing this with me :)")
-print()
